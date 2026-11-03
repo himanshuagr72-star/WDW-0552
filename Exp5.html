@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+  <form action="./thankyou.html" target=""
+    name="registration form">
+     <h1 align="center">Registration Form</h1><hr><br>
+    <label for="FirstName">First Name :  </label>
+    <input type="text" id="FirstName" maxlength="11" minlength="3" name="text" required placeholder="Enter your First Name">
+    <br><br>
+    <label for="LastName">Last Name :</label>
+    <input type="text" id="LastName" name="text" minlength="3" maxlength="11" placeholder="Enter your Last Name">
+    <br><br>
+    <!--gender-->
+    <label for="gender">Gender : </label><label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" required> 
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="Other" required> 
+    <br><br>
+    <label for="Age">Age :</label>
+    <input type="age" id="Age" maxlength="2" minlength="2" name="number" placeholder="Enter your Age">
+    <br><br>
+    <label for="PhoneNo.">Phone No. :  </label>
+    <input type="tel" id="PhoneNo." minlength="10" maxlength="10" name="number" placeholder="+91  Enter your Phone Num.">
+    <br><br>
+    <label for="EmailId">Email Id :</label>
+    <input type="email" id="EmailId" name="email" placeholder="Enter your Email Id">
+    <br><br>
+    <!--password-->
+    <label for="Username">Password : </label>
+    <input type="password"   minlenght="8" and maxlength="16" placeholder="Enter Your Password"><br>
+    <br>
+    <!--streams-->
+    <label for="stream">Stream : </label>
+    <select name="stream" id="stream">
+        <option value="--Choose Stream--">-----Choose Stream-----</option>
+        <option value="pcm">PCM</option>
+        <option value="pcb">PCB</option>
+        <option value="arts">Arts</option>
+    </select><br>
+    <br>
+    <!--Address-->
+    <label for="Address">Address : </label><br>
+  <textarea name="address" id="address" placeholder="Enter your full address" cols="32" rows="5" ></textarea><br>
+    <br>
+    <!--Submit-->
+    <input type="reset" value="Clear">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="Submit" value="Submit"><br><hr>
+    <p align="center">© 2026 Student Registration Portal </p>
+  </form>
+</body>
+</html>
